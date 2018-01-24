@@ -1,0 +1,200 @@
+{
+  "roles": [
+    {
+      "id": 0,
+      "name": "SuperUser"
+    },
+    {
+      "id": 1,
+      "name": "User"
+    },
+    {
+      "id": 2,
+      "name": "Project Manager"
+    }
+  ],
+  "users": [
+    {
+      "password": "123",
+      "name": "user",
+      "email": "user@domain",
+      "avatar": "avatars:svg-1",
+      "dateOfBirth": null,
+      "id": "SOTs0vh",
+      "projectIds": [
+        "r9beNEV",
+        "NN3DeG9"
+      ]
+    },
+    {
+      "password": "123",
+      "name": "user2",
+      "email": "user2@domain",
+      "avatar": "avatars:svg-13",
+      "dateOfBirth": null,
+      "id": "DLbyTRu"
+    }
+  ],
+  "projects": [
+    {
+      "name": "CMS Project",
+      "desc": "A Demo Project",
+      "coverImg": "/assets/img/covers/3.jpg",
+      "members": [
+        "SOTs0vh"
+      ],
+      "id": "r9beNEV",
+      "tasklists": [
+        "pq3tMq3",
+        "sxhVe_S",
+        "rO_xWh1"
+      ]
+    },
+    {
+      "name": "ERP Project",
+      "desc": "Another Demo Project",
+      "coverImg": "/assets/img/covers/20.jpg",
+      "members": [
+        "SOTs0vh",
+        "DLbyTRu"
+      ],
+      "id": "NN3DeG9"
+    }
+  ],
+  "taskLists": [
+    {
+      "name": "To do",
+      "projectId": "NN3DeG9",
+      "order": 1,
+      "id": 1
+    },
+    {
+      "name": "Working on",
+      "projectId": "NN3DeG9",
+      "order": 2,
+      "id": 2
+    },
+    {
+      "name": "Completed",
+      "projectId": "NN3DeG9",
+      "order": 3,
+      "id": 3
+    },
+    {
+      "name": "ToDo",
+      "order": null,
+      "projectId": "r9beNEV",
+      "id": 4
+    },
+    {
+      "name": "History",
+      "order": 1,
+      "projectId": "r9beNEV",
+      "id": 5
+    },
+    {
+      "name": "Next Week",
+      "order": 1,
+      "projectId": "r9beNEV",
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "desc": "Contact Client",
+      "priority": 3,
+      "remark": null,
+      "ownerId": "SOTs0vh",
+      "participantIds": [],
+      "taskListId": 1,
+      "completed": false,
+      "createDate": "2018-01-24T04:51:06.043Z",
+      "id": 1
+    },
+    {
+      "desc": "Diner",
+      "priority": 3,
+      "remark": null,
+      "ownerId": "DLbyTRu",
+      "participantIds": [],
+      "taskListId": 3,
+      "completed": false,
+      "createDate": "2018-01-24T04:51:42.693Z",
+      "id": 2,
+      "dueDate": "2018-01-24T06:00:00.000Z",
+      "reminder": "2018-01-24T06:00:00.000Z"
+    },
+    {
+      "desc": "business plan",
+      "priority": 3,
+      "remark": null,
+      "ownerId": "SOTs0vh",
+      "participantIds": [],
+      "taskListId": 2,
+      "completed": false,
+      "createDate": "2018-01-24T04:52:24.868Z",
+      "id": 3
+    },
+    {
+      "desc": "Repair cellphone",
+      "priority": 3,
+      "remark": null,
+      "ownerId": "SOTs0vh",
+      "participantIds": [],
+      "taskListId": 1,
+      "completed": true,
+      "createDate": "2018-01-24T04:52:45.231Z",
+      "id": 4
+    }
+  ],
+  "quotes": [
+    {
+      "id": "0",
+      "en": "In the morning, LORD, you hear my voice; in the morning I lay my requests before you and wait expectantly.",
+      "from": "Psalm 5:3 (NIV)",
+      "pic": "/assets/img/quotes/0.jpg"
+    },
+    {
+      "id": "1",
+      "from": "Proverbs 18:13 (NIV)",
+      "en": "To answer before listening — that is folly and shame.",
+      "pic": "/assets/img/quotes/1.jpg"
+    },
+    {
+      "id": "2",
+      "from": "Philippians 3:13-14 (NIV)",
+      "en": "Brothers and sisters, I do not consider myself yet to have taken hold of it. But one thing I do: Forgetting what is behind and straining toward what is ahead, I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.",
+      "pic": "/assets/img/quotes/2.jpg"
+    },
+    {
+      "id": "3",
+      "from": "1 Timothy 6:12 (NIV)",
+      "en": "“Fight the good fight of the faith. Take hold of the eternal life to which you were called when you made your good confession in the presence of many witnesses.”",
+      "pic": "/assets/img/quotes/3.jpg"
+    },
+    {
+      "id": "4",
+      "from": "II Corinthians 12:9-11 (NIV)",
+      "en": "But he said to me, my grace is sufficient for you, for my power is made perfect in weakness.",
+      "pic": "/assets/img/quotes/4.jpg"
+    },
+    {
+      "id": "5",
+      "from": "Psalm 37:23-24 (NIV)",
+      "en": "The LORD makes firm the steps of the one who delights in him; though he may stumble, he will not fall, for the LORD upholds him with his hand.",
+      "pic": "/assets/img/quotes/5.jpg"
+    },
+    {
+      "id": "6",
+      "from": "Romans 8:18 (NIV)",
+      "en": "I consider that our present sufferings are not worth comparing with the glory that will be revealed in us.",
+      "pic": "/assets/img/quotes/6.jpg"
+    },
+    {
+      "id": "7",
+      "from": "Jeremiah 29:11 (NIV)",
+      "en": "“For I know the plans I have for you, plans to prosper you and not to harm you, plans to give you hope and a future.”",
+      "pic": "/assets/img/quotes/7.jpg"
+    }
+  ]
+}
